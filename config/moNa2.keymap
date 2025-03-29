@@ -72,7 +72,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_2 {
+        SCROLL {
             bindings = <
 &trans                      &kp F2           &kp F4           &kp F5           &kp F12                                          &trans    &trans     &trans    &trans     &trans
 &kp LCTRL                   &kp LALT         &kp LS(LCTRL)    &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &trans  &mkp MB4  &mkp LCLK  &kp UP    &mkp RCLK  &kp PIPE
