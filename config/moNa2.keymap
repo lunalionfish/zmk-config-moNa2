@@ -2,7 +2,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <layout_shift.dtsi>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
@@ -65,7 +64,7 @@
         layer_1 {
             bindings = <
 &kp GRAVE   &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(GRAVE)  &kp PIPE                                      &trans             &kp N7        &kp N8        &kp N9        &kp LS(MINUS)
-&kp LS(N9)  &kp LS(N0)        &kp LBKT          &kp RBKT       &kp BACKSLASH  &trans            &kp LS(SQT)  &kp LS(SEMICOLON)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kpls EQUAL
+&kp LS(N9)  &kp LS(N0)        &kp LBKT          &kp RBKT       &kp BACKSLASH  &trans            &kp LS(SQT)  &kp LS(SEMICOLON)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL
 &trans      &trans            &trans            &trans         &trans         &trans            &kp SQT      &kp SEMICOLON      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
 &kp ESCAPE  &kp LEFT_CONTROL  &kp LEFT_GUI      &trans         &trans         &kp LEFT_SHIFT    &kp DELETE   &kp N0                                                       &trans
             >;
